@@ -1,0 +1,80 @@
+# Terraform files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+.terraform/
+
+# Local .terraform directories
+**/.terraform/
+
+# .tfvars files (override variables)
+*.tfvars
+
+# .lock.hcl files (used by Terraform Cloud)
+*.lock.hcl
+
+# Crash log files
+crash.log
+
+# Exclude any .terraformrc file
+.terraformrc
+
+# MacOS metadata
+.DS_Store
+
+# Vim swap files
+.*.sw[pno]
+
+# Visual Studio Code settings folder
+.vscode/
+
+# Terraform CLI log files
+.terraform.d/plugins.log
+
+# .terraform.tfstate and .terraform.tfstate.backup files
+*.tfstate
+*.tfstate.backup
+
+# Environment-specific .tfvars files
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Ignore override files as they are usually used to re-declare variables
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore configuration override files
+*_provider.tf
+*_provider.tf.json
+
+# Ignore CLI configuration files
+cli.tf
+
+# Exclude CLI query files
+cli.hcl
+
+# Exclude log files
+*.log
+
+# Exclude crash.log files
+crash.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore test directories
+test
+
+# Ignore GCP credentials file
+*.json
+
+# Ignore minikube files
+minikube/
+
+# Ignore packer cache
+packer_cache/
+
+# Ignore backup files
+*.bak

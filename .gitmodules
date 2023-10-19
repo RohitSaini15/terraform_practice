@@ -1,3 +1,6 @@
 [submodule "share_prompts"]
 	path = share_prompts
 	url = https://github.com/RohitSaini15/share_prompts.git
+[submodule "instagram-clone"]
+	path = exercise1/instagram-clone
+	url = https://github.com/RohitSaini15/instagram-clone.git
